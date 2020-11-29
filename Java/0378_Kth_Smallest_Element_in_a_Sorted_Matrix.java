@@ -10,7 +10,7 @@ class Solution {
             
         });
         
-        for(int i=0;i<matrix.length;i++){
+        for(int i=0;i<Math.min(n,k);i++){
             
             pq.add(new Node(matrix[i][0],i,0));
             
